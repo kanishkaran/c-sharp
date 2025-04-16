@@ -1,0 +1,72 @@
+Choose an option:
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter choice: 1
+Enter name: Robert
+Student added.
+
+Choose an option:
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter choice: 1
+Enter name: John Snow
+Student added.
+
+Choose an option:
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter choice: 2
+
+All Students:
+ID: 1, Name: Robert
+ID: 2, Name: John Snow
+
+Choose an option:
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter choice: 3
+Enter ID to update: 1
+Enter new name: Robert Baratheon
+Student updated.
+
+Choose an option:
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter choice: 2
+
+All Students:
+ID: 1, Name: Robert Baratheon
+ID: 2, Name: John Snow
+
+Choose an option:
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter choice: 4
+Enter ID to delete: 1
+Student deleted if existed.
+
+Choose an option:
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter choice: 5
