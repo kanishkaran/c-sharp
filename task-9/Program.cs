@@ -15,7 +15,7 @@ public class TaskTwo
 {
     [Runnable]
     public void Execute() => Console.WriteLine("TaskTwo.Execute executed");
-    
+
     public void IgnoreMe() => Console.WriteLine("Not marked with [Runnable]");
 }
 
@@ -31,6 +31,8 @@ public class Program
             {
                 if (method.GetCustomAttribute(typeof(RunnableAttribute)) != null)
                 {
+                    Console.WriteLine("Name of the Method Invoked: "+ method.Name);
+
                     method.Invoke(instance, null);
                 }
             }
