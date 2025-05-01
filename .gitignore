@@ -10,6 +10,7 @@ obj/
 
 # Visual Studio
 .vs/
+.vscode/
 
 # Rider
 .idea/
@@ -26,3 +27,5 @@ packages/
 *.DS_Store
 *.bak
 *.tmp
+
+.fake
